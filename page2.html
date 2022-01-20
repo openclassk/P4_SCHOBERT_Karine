@@ -1,27 +1,23 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
+<!-- Analytics -->
+<!--meta-->
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
+	<meta name="description" content="La chouette agence est spécialisée en web design,
+	nous sommes situés sur Lyon. Nous réalisons tous vos projets et refontes de sites internet">
+    <meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<!--link-->	
+	<link rel="canonical" href="https://openclassk.github.io/P4_SCHOBERT_Karine/">	
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
-
-    
-<!-- Analytics -->
+<!--Title-->
+    <title>Contact</title>
  
 <!-- Analytics END -->
     
@@ -31,52 +27,55 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
+					 alt="logo la chouette agence"/></a>
+					 
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
 			</div>
+
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
-
+<main>
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12">
+			<article class="col-sm-12">
+				<!--modification contraste-->
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
+				<!--modification texte-->
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
-			</div>
+			</article>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
@@ -116,53 +115,68 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+</main>
+<!-- ScrollToTop Button invisible a faire-->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
+	<span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
-
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<!-- Ajout Footer - bloc-8 -->
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
+				<!--correction couleur texte font size probleme contraste-->
 				<p class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" aria-label="twitter"  href="https://twitter.com/home?lang=fr">
+								<span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
+						<!--erreur contraste couleur-->
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" aria-label="facebook" href="http://www.facebook.fr">
+								<span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
+						<!--erreur contraste couleur-->
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" aria-label="dribble" href="https://dribbble.com/">
+								<span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
+								<!--err_cat_name_role_value_4--><!--erreur link-->
+						<!--erreur contraste couleur-->
+						<!--manque un aria label-->
+							<!--et le nom du lien a rsjout line vide dieses-->
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social"aria-label="instagram" href="https://www.instagram.com/?hl=fr">
+								<span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
-
 </div>
+</body>	
 <!-- Principal conteneur END -->
-    
 
-</body>
+<!--script-->
+<script src="./js/jquery-2.1.0.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/blocs.js"></script>
+<script src="./js/jquery.touchSwipe.js" defer></script>
+<script src="./js/gmaps.js"></script>
 </html>
