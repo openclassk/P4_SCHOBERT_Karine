@@ -25,7 +25,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -338,6 +338,12 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
+/*ajout correction*/
+ul ,a{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -463,10 +469,11 @@ nav .caret {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
-
+/*button page 2*/
 button {
-    border: solid 3px red;
- /*   outline: none!important;*/
+
+  border-radius: 10px;
+    outline: 0!important;
 }
 
 .btn-rd {
@@ -483,12 +490,9 @@ button {
 .icon-md {
     font-size: 30px!important;
 }
-/*corection*/
 .icon-lg {
- 
     font-size: 60px!important;
 }
-
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
@@ -515,24 +519,27 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+/*ajout correction*/
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: -3px;
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
-
+/*ajout correction*/
 .scrollToTop span {
-    margin-top: 6px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+/*correction*/
 .showScrollTop {
-    font-size: 14px;
+    font-size: 17px;
     opacity: 1;
 }
 
@@ -584,12 +591,13 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    /*ajout correction*/
+    bottom: -3px;
 }
 
 .close-lightbox {
@@ -684,7 +692,7 @@ a {
 }
 /*correction*/
 p {
-    font-size: 14px;
+    font-size: 17px;
 }
 /*ajout*/
 figure p {
@@ -715,10 +723,13 @@ blockquote, figcaption{
     font-size: 16px;
     font-weight: 700;
 }
-
+/* ajout correction*/
 .social {
+  
+    display: flex;
+    justify-content:space-around;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 h2 {
@@ -755,7 +766,7 @@ h4 {
 /*correction*/
 .white {
    font-size: 15px;
-   color: #FFFFFF!important;
+   color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -777,7 +788,6 @@ h4 {
 }
 /* a corriger*/
 .bold-link {
-  
     font-weight: 900;
     text-decoration: underline!important;
 }
@@ -796,7 +806,7 @@ h4 {
 /*correction*/
 .tc-white {
    /*  color: #F3976C!important;*/
-   color: #f6f2f0!important;
+   color: #f5f6db!important;
 }
 /*correction*/
 .btn-atomic-tangerine {
@@ -841,11 +851,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
